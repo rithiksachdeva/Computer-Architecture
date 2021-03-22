@@ -2,6 +2,7 @@
 ## Projects created during my UC Davis Computer Architecture Class
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 All these projects were created in the RARS simulator and are intended for RISC-V assembly. Each project has numerous objectives, which are detailed below.
 
 ## Design Project 1
