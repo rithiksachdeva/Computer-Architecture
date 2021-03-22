@@ -18,7 +18,7 @@ All these projects were created in the RARS simulator and are intended for RISC-
 - Given the address of an array of positive 32-bit unsigned integers in register x10 and the size of the array in register x11, the program should calculate the maximum possible XOR between any two numbers present in the array and store it in register x10. For example, in the array {25, 10, 2, 8, 5, 3}, the maximum possible value is 5 XOR 25, which outputs 28. (xor.asm)
 
 ## Design Project 3
-- Given a memory address of a 4kB unsorted input (1024 32-bit unsigned integers), the memory address of a 4kB output space, and the memory address of a 4kB scratch space, sort the array using insertion sort.
-- Given a memory address of a 4kB unsorted input (1024 32-bit unsigned integers), the memory address of a 4kB output space, and the memory address of a 4kB scratch space, sort the array using merge sort.
-- Finally, using the sorted lists given in the output of merge and insert, implement a binary search algorithm that will find the predecessor of a key K, which is the largest number in the input dataset that is smaller than K but not equal to K. 
+- Given a memory address of a 4kB unsorted input (1024 32-bit unsigned integers), the memory address of a 4kB output space, and the memory address of a 4kB scratch space, sort the array using insertion sort. (insert.asm)
+- Given a memory address of a 4kB unsorted input (1024 32-bit unsigned integers), the memory address of a 4kB output space, and the memory address of a 4kB scratch space, sort the array using merge sort. (merge.asm)
+- Finally, using the sorted lists given in the output of merge and insert, implement a binary search algorithm that will find the predecessor of a key K, which is the largest number in the input dataset that is smaller than K but not equal to K. (bsearch.asm)
 
